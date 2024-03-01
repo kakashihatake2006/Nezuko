@@ -12,8 +12,8 @@ global.prefa = process.env.PREFIX || "+";
 global.ggle = process.env.GOOGLE_API || "AIzaSyDiPos9JPXolt0UBUSbrMSAAJYZLug5gIQ";
 global.wter = process.env.WEATHER_API || "none";
 global.sessionId = process.env.SESSION_ID || "op";
-global.malid = process.env.MAL_USERNAME || Kakashu2006;
-global.malpass = process.env.MAL_PASSWORD || R02ZJXBBWA;
+global.malid = process.env.MAL_USERNAME || "Kakashu2006";
+global.malpass = process.env.MAL_PASSWORD || "R02ZJXBBWA";
 global.port = process.env.PORT || 8080;
 
 let file = require.resolve(__filename);
