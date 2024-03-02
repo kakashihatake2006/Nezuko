@@ -27,14 +27,7 @@ module.exports = {
             .replace(/%command/gi, cmd.name)
             .replace(/%text/gi, text)}`
         );
-      var buttonss = [
-        {
-          buttonId: `${prefix}help`,
-          buttonText: { displayText: `help` },
-          type: 1,
-        },
-      ];
-      let buth = {
+        let buth = {
         text: `*ℹ️Command Info*\n\n${data.join("\n")}`,
         footer: "*Have a good day*",
         buttons: buttonss,
