@@ -58,14 +58,14 @@ module.exports = {
       } else {
         var emo = ["📖","🎉", "🍁", "🍀", "🌊", "🎵", "🔞", "🎟", "♨️", "🉐"];
       }
-      let txt = `*👋(🤍ω🤍) Konnichiwa * ${pushName} I am *Nezuko-Chan*.
+      let txt = `*👋(🤍ω🤍) Konnichiwa* ${pushName} I am *Nezuko-Chan*.
                        
 🧧 *Prefix*  ${prefix} 
                        
-📬 Command List 📬:\n\n`;
+*📬 Command List 📬* :\n\n`;
       const keys = Object.keys(category);
       for (const key of keys) {
-        txt += `*「${key.toUpperCase()} Side 」*\n\n\`\`\`${category[key]
+        txt += `*「${key.toUpperCase()} SIDE 」*\n\n\`\`\`➪ ${category[key]
           .map((cmd) => cmd.name)
           .join(", ")}\`\`\`\n\n`;
       }
