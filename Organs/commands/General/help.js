@@ -36,7 +36,7 @@ module.exports = {
       ];
       let buth = {
         text: `*ℹ️Command Info*\n\n${data.join("\n")}`,
-        footer: "*©Eternity-Team*",
+        footer: "*Have a good day*",
         buttons: buttonss,
         headerType: 1,
       };
@@ -67,21 +67,21 @@ module.exports = {
       } else {
         var emo = ["📖","🎉", "🍁", "🍀", "🌊", "🎵", "🔞", "🎟", "♨️", "🉐"];
       }
-      let txt = `*Kon'nichiwa (｡♡‿♡｡)* ${pushName} Watashiwa *Nezuko*.
+      let txt = `*👋(🤍ω🤍) Konnichiwa * ${pushName} I am *Nezuko-Chan*.
                        
-🧧 *Prefix :* [ ${prefix} ]
+🧧 *Prefix*  ${prefix} 
                        
-📝 Here's the *Commands* listed below :\n\n`;
+📬 Command List 📬:\n\n`;
       const keys = Object.keys(category);
       for (const key of keys) {
-        txt += `*${key.toUpperCase()} ${
+        txt += `「*${key.toUpperCase()} ${
           emo[keys.indexOf(key)]
-        } :-*  \n\`\`\`${category[key]
+          } 」*  \n\`\`\`${category[key]
           .map((cmd) => cmd.name)
           .join(", ")}\`\`\`\n\n`;
       }
-      txt += `📗 Type *${prefix}help* <Command-Name> or <Command-Name> --info\n\n`;
-      txt += `*©Eternity-Team*`
+      txt += `📒 Note = Type *${prefix}help* <Command-Name> or <Command-Name> --info\n\n`;
+      txt += `*Have a Good Day*`
       const eternity = [
         "https://images3.alphacoders.com/107/1078895.png",
         "https://images6.alphacoders.com/103/1037400.png",
