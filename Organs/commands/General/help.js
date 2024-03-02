@@ -29,8 +29,6 @@ module.exports = {
         );
         let buth = {
         text: `*ℹ️Command Info*\n\n${data.join("\n")}`,
-        footer: "*Have a good day*",
-        buttons: buttonss,
         headerType: 1,
       };
       return client.sendMessage(m.from, buth, { quoted: m });
