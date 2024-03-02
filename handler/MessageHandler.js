@@ -109,8 +109,8 @@ module.exports = async (client, m, commands, chatUpdate) => {
         : [];
     const flags = args.filter((arg) => arg.startsWith("--"));
     if (body.startsWith(prefix) && !icmd) {
-      var rae = `https://i.ibb.co/c33ZHCx/wallpaperflare-com-wallpaper.jpg`;
-      let txtt = `*${prefix}${cmdName}* is an ⛔ invalid command \nuse *${prefix}help* to see help menu`;
+      var rae = `https://telegra.ph/file/acd033a2a69a965dbffe5.jpg`;
+      let txtt = `(￣へ ￣) No such Command Baka!!! *${prefix}${cmdName}*\nuse *${prefix}help* to see help menu`;
       client.sendMessage(m.from, {image:{url:rae}, caption:txtt}, { quoted: m });
     }
 
